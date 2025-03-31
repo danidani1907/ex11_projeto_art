@@ -1,1 +1,179 @@
-/* 2ª Digitação (Aqui) */
+/* ESTILOS GERAIS */
+
+*{
+    color: #254890;
+    
+}
+
+a,i{
+    transition: .5s;
+    text-decoration: none;
+}
+
+.secondary-color{
+    color: #555;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #25282e;
+    color: #FFF;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+
+.btn:hover{
+    background-color: #333;
+    color: #FFF;
+}
+
+/*HEADER*/
+
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+#header p {
+    margin-bottom: 0;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 40px;
+    margin-right: 15px;
+}
+
+/*NAVBAR*/
+#navbar{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#navbar a{
+    width: 80px;
+    color: #444;
+}
+
+#navbar a:hover{
+    color: #96b8c1;
+}
+
+/*MAIN IMAGE*/
+.main-image{
+    height: 400px;
+    background-image:url(../img/1.jpg);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+/*Gallery*/
+
+#img-2 {
+    background-image:url(../img/Simon.jpg);
+}
+
+#img-3 {
+    background-image:url(../img/Simone.jpg);
+}
+
+#img-4 {
+    background-image:url(../img/S.png);
+}
+
+#img-5 {
+    background-image:url(../img/dublador.jpg);
+}
+
+#img-6 {
+    background-image: url(../img/desenho.png);
+}
+
+#gallery-container h1{
+    text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container.col-md-6,
+#gallery-container .col-xs-12{
+    margin-bottom: 50px;
+}
+
+.small-image-container{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/*Footer*/
+footer{
+    border-top: 1px solid #CCC;
+    height: 250px;
+    padding: 30px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+#social-icons-container{
+    padding: 25px;
+}
+
+#social-icons-container div{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    margin: 20px;
+}
+
+a:hover i{
+    color: #c1b696;
+}
+.top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+  }
+.top a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem; /* Tamanho do botão */
+    height: 5rem; /* Tamanho do botão */
+    background-color: var(--second-bg-color); /* Cor de fundo */
+    border-radius: 50%; /* Formato circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+    transition: all 0.3s ea
+}
+.top a:hover {
+    background-color: var(--second-text-color); /* Cor de fundo ao passar o mouse */
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  .top i {
+    font-size: 3rem; /* Tamanho do ícone */
+    color: var(--text-color); /* Cor do ícone */
+    font-weight: bold; /* Deixa o ícone mais espesso */
+  }
