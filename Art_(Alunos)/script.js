@@ -45,3 +45,5 @@ document.querySelector('.top a').addEventListener('click', (e) => {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' }); // rola suavemente para o topo da página 
 });
+
+
